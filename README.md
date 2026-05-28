@@ -16,7 +16,6 @@ Para garantir a total conformidade com as políticas de Segurança da Informaç�
 
 ## 🚀 Diferenciais Técnicos
 
-* **Arquitetura Híbrida e Adaptativa:** Permite alternar dinamicamente através da interface entre o ambiente local de testes e validações (**PostgreSQL**) e o ambiente de nuvem corporativa (**Amazon Redshift**).
 * **Superpoder de Leitura em Camada 3 (Redshift Spectrum):** Supera a limitação tradicional de LLMs ao ler tabelas externas de Data Lakes (S3). A aplicação realiza uma query unificada utilizando a tabela de sistema `svv_external_columns` do Redshift, mapeando perfeitamente os metadados de estruturas externas.
 * **Controle Absoluto de Perímetro:** O analista delimita o escopo de atuação da IA digitando o schema exato que deseja focar na barra lateral. Isso zera alucinações do modelo e otimiza o consumo de tokens.
 * **Prompt Engineering de Ceticismo Profissional:** Programado sob uma diretriz de senioridade técnica. O copiloto debate performance (CTEs, JOINs perigosos) e valida feedbacks logicamente antes de propor alterações.
